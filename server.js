@@ -15,7 +15,7 @@ const rules = auth.rewriter({
 app.use(cors());
 app.use(rules);
 app.use(auth);
-app.use(router);
+app.use(router); 
 app.listen(port);
 
 console.log("Server is running on port:", port);
