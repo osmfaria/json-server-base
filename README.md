@@ -20,6 +20,8 @@ example:
 
 > https://primeiro-teste-osmar.herokuapp.com/register
 
+---
+
 ```
 {
   "email": "kenzinho@mail.com",
