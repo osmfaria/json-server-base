@@ -86,6 +86,20 @@ Resposta:
 }
 ```
 
+DELETE /games/:id
+
+Resposta:
+> 200 OK
+
+PATCH /games/:id
+
+```
+{
+	"name": "Dota 3"
+}
+```
+** somente enviar o parametro a ser modificado a ser modificado **
+
 ### Friends
 
 #### Necessita de autenticação:
@@ -106,3 +120,8 @@ Resposta:
 	"userId": 1
 }
 ```
+
+DELETE /friends/:id
+
+Resposta:
+> 200 OK
