@@ -21,8 +21,20 @@ example:
 ```
 {
   "email": "kenzinho@mail.com",
-  "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+  "password": "123456",
   "name": "Kenzinho",
+  "age": 38,
+}
+```
+
+Resposta:
+
+```
+{
+  "email": "kenzinho@mail.com",
+  "password": "123456",
+  "name": "Kenzinho",
+  "password": $2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
   "age": 38,
 }
 ```
@@ -31,3 +43,4 @@ example:
 
 POST /login <br/>
 POST /signin
+```
