@@ -71,7 +71,7 @@ Resposta:
 
 GET /games
 
-#### Necessita autenticação, e ownership
+#### Necessita autenticação, e ownership:
 
 POST /games
 
@@ -79,7 +79,19 @@ POST /games
 
 #### Necessita de autenticação:
 
-GET /freinds
+GET /friends
+
+Resposta:
+> 200 OK
+
+```
+{
+	"name": "Dota 2",
+	"type": "MOBA",
+	"userId": 1
+}
+```
+
 
 #### Necessita de autenticação e ownership:
 
