@@ -1,7 +1,5 @@
 # S3B11 API
 
-# json-server-base
-
 Esse é o repositório com a "API" criada com JSON-Server + JSON-Server-Auth e com deploy no Heroku.
 
 ## Base URL
@@ -56,6 +54,7 @@ POST /signin
 ```
 
 Resposta:
+> 200 OK
 
 ```
 {
@@ -68,3 +67,20 @@ Resposta:
   }
 }
 ```
+### Games
+
+GET /games
+
+#### Necessita autenticação, e ownership
+
+POST /games
+
+### Friends
+
+#### Necessita de autenticação:
+
+GET /freinds
+
+#### Necessita de autenticação e ownership:
+
+POST /friends
