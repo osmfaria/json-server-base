@@ -18,11 +18,11 @@ POST /users
 
 example:
 
-``{
-"email": "kenzinho@mail.com",
-"password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-"name": "Kenzinho",
-"age": 38,
+``{<br/>
+  "email": "kenzinho@mail.com",<br/>
+  "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",<br/>
+  "name": "Kenzinho",<br/>
+  "age": 38,<br/>
 }``
 
 ### Login
