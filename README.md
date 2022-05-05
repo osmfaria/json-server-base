@@ -75,12 +75,6 @@ GET /games
 
 POST /games
 
-### Friends
-
-#### Necessita de autenticação:
-
-GET /friends
-
 Resposta:
 > 200 OK
 
@@ -92,7 +86,23 @@ Resposta:
 }
 ```
 
+### Friends
+
+#### Necessita de autenticação:
+
+GET /friends
 
 #### Necessita de autenticação e ownership:
 
 POST /friends
+
+Resposta:
+> 200 OK
+
+```
+{
+	"name": "Odin",
+	"server": "Azralon",
+	"userId": 1
+}
+```
