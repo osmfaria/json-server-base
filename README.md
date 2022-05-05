@@ -20,8 +20,6 @@ example:
 
 > https://primeiro-teste-osmar.herokuapp.com/register
 
----
-
 ```
 {
   "email": "kenzinho@mail.com",
@@ -32,6 +30,8 @@ example:
 ```
 
 Resposta:
+
+> 201 OK
 
 ```
 {
@@ -47,4 +47,24 @@ Resposta:
 
 POST /login <br/>
 POST /signin
+
+```
+{
+  "email": "kenzinho@mail.com",
+  "password": "123456",
+}
+```
+
+Resposta:
+
+```
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtlbnppbmhvQG1haWwuY29tIiwiaWF0IjoxNjUxNzg1ODEzLCJleHAiOjE2NTE3ODk0MTMsInN1YiI6IjEifQ.-0tPRjeuvGAVClysTpJFFkZ1zPc27lceK-tWVeqEGUo",
+	"user": {
+		"email": "kenzinho@mail.com",
+		"name": "Kenzinho",
+		"age": 38,
+		"id": 1
+	}
+}
 ```
