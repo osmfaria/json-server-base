@@ -67,6 +67,9 @@ Resposta:
   }
 }
 ```
+
+---
+
 ### Games
 
 GET /games
@@ -98,7 +101,9 @@ PATCH /games/:id
 	"name": "Dota 3"
 }
 ```
-** somente enviar o parametro a ser modificado a ser modificado **
+**somente enviar o parametro a ser modificado a ser modificado**
+
+---
 
 ### Friends
 
