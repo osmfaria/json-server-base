@@ -61,10 +61,10 @@ Resposta:
 {
   "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtlbnppbmhvQG1haWwuY29tIiwiaWF0IjoxNjUxNzg1ODEzLCJleHAiOjE2NTE3ODk0MTMsInN1YiI6IjEifQ.-0tPRjeuvGAVClysTpJFFkZ1zPc27lceK-tWVeqEGUo",
   "user": {
-	  "email": "kenzinho@mail.com",
+	          "email": "kenzinho@mail.com",
 	  "name": "Kenzinho",
 	  "age": 38,
 	  "id": 1
-	}
+  }
 }
 ```
